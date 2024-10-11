@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cadastro de Alunos</title> <script src="js/script.js"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset style="width: fit-content;">
+
+      <legend>Cadastro de Alunos:</legend>
+      <form>
+         <label for="matricula">Matrícula:</label><br>
+         <input type="number" id="matricula" name="matricula"><br>
+
+         <label for="nome">Nome:</label><br>
+         <input type="text" id="nome" name="nome"><br>
+
+         <label for="nascimento">Data de nascimento:</label><br>
+         <input type="date" id="nascimento" name="nascimento"><br>
+         <label for="curso">Curso:</label><br>
+         <input type="text" id="curso" name="curso"><br>
+         <label for="sexo">Sexo:</label><br>
+         <input type="radio" value="Masculino" id="masculino" name="sexo">
+         <label for="masculino">Masculino</label><br>
+        <input type="radio" value="Feminino" id="feminino" name="sexo">
+        <label for="feminino">Feminino</label><br>
+        <br>
+        <input type="button" onclick="AddAlunoArray()" value="Cadastrar Aluno">
+</form>
+</fieldset> 
+
+<fieldset>
+    <legend>Pesquisar Alunos:</legend>
+    <button onclick="filtrarPorSexo('Feminino')">Trazer Alunos do Sexo Feminino</button><br>
+    <button onclick="filtrarPorCursoESexo('Informática', 'Masculino')">Trazer Alunos do Curso de Informática e Sexo Masculino</button><br>
+    <button onclick="filtrarPorMatricula(100)">Trazer Alunos com Matrícula Superior a 100</button><br>
+</fieldset>
+   <div id="resultado"></div>
+</body>
+</html>
+ 
