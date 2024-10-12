@@ -43,14 +43,14 @@ legend {
 
 }
 
-label {
+ label{
 
-    display:flex
-    font-size: 1.6em;     
-    margin-bottom: 1px;
-    color: white;
+    display: flex;
+    font-size: 1.5em;     
+    margin-bottom:1px;
+   
 
-    font-family: ui-sans-serif
+    font-family: ui-sans-serif;
 }
 
 input[type="text"], input[type="date"], input[type="number"], input[type="radio"] {
@@ -81,7 +81,7 @@ input[type="radio"] {
 
 input[type="button"] {
 
-    background-color: yellow;
+    background-color: rgb(130, 117, 201);
 
     color: rgb(0, 0, 0);
 
