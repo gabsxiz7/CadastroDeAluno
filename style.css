@@ -1,172 +1,75 @@
 body {
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #786d72;
-
     margin: 20px;
-
     padding: 20px;
-
     display:flex;
-
     flex-direction: column;
-
     align-items:center;
-
-    justify-content: center;
-
-    height: 100vh;
-
 }
 
 fieldset {
-
     background-color: rgb(137, 135, 135);
-
-    border: 1px solid #ccc;
-    border-radius: 10px
-    padding: 20px;
-    margin: 100%
-    width: 100%
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-
+    border: 3px solid #ccc;
+    border-radius: 10px;
 }
 
-legend {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight:bold;
-    font-size: 1.4em;
-    color: rgb(0, 0, 0);
 
-}
-
- label{
-
+label{
     display: flex;
     font-size: 1.5em;     
     margin-bottom:1px;
-   
-
     font-family: ui-sans-serif;
 }
 
 input[type="text"], input[type="date"], input[type="number"], input[type="radio"] {
-
     width: 100%;
-
     padding: 2px;
-
     margin-bottom: 10px;
-
-    border: 2px solid #ccc;
-
     border-radius: 5px;
-
     box-sizing: border-box;
-
     font-size: 1em;
-
     background-color: rgb(137, 135, 135);
-
-}
-
-input[type="radio"] {
-
-    margin-right: 8px;
-
 }
 
 input[type="button"] {
-
     background-color: rgb(130, 117, 201);
-
     color: rgb(0, 0, 0);
-
     padding: 10px;
-
-    border: none;
-
     border-radius: 5px;
-
-    cursor: pointer;
-
     font-size: 1em;
-
     width: 100%;
-
     margin-top: 10px;
+}
+
+#AdicionarAluno:hover{
+    background-color: #16e621;
 
 }
 
-input[type="button"]:hover {
-
+#ExcluirAluno:hover{
     background-color: #16e621;
+}
 
+#ExcluirNomes:hover{
+    background-color:  #16e621;
 }
 
 button {
 
     background-color: #7c82ff;
     font-family: Arial, Helvetica, sans-serif;
-
     color: rgb(0, 0, 0);
-
     padding: 5px;
-
     border: none;
-
     border-radius: 5px;
-
     cursor: pointer;
-
     font-size: 1em;
-
     width: 100%;
-
     margin-bottom: 10px;
-
 }
 
 button:hover {
-
     background-color: #739ac5;
-
 }
 
-#resultado {
-
-    margin-top: 20px;
-
-    background-color: #fff;
-
-    border: 1px solid #ccc;
-
-    padding: 15px;
-
-    width: 150px;
-
-    border-radius: 8px;
-
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
-}
-
-#resultado p {
-
-    margin: 0;
-
-    padding: 5px;
-
-    border-bottom: 1px solid #ccc;
-
-}
-
-#resultado p:last-child {
-
-    border-bottom: none;
-
-}
- 
